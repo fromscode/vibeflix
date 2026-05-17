@@ -11,7 +11,7 @@ load_dotenv()
 @tool
 def get_movie_details(id: int):
     """
-    Fetch the details of a particular movie id from the TMDB using
+    Fetch the details of a particular movie id from the TMDB
 
     Args:
         id (int): The id of the movie
