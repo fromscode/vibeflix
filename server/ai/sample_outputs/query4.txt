@@ -1,0 +1,53 @@
+prompt:
+Can you recommend me some Daniel Day Lewis films
+
+output:
+{
+  "response": "Look, when you talk about Daniel Day-Lewis, you aren't just talking about 'acting'—you're talking about the absolute peak of method immersion. The man doesn't just play a role; he becomes the character. Here are three absolute masterclasses in performance that every cinephile needs to study. Seriously, clear your schedule.",
+  "movies": [
+    {
+      "title": "There Will Be Blood",
+      "tmdb_id": 7345,
+      "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+      "release_year": "2007",
+      "director": "Paul Thomas Anderson",
+      "overview": "Ruthless silver miner turned oil prospector, Daniel Plainview, ruthlessly pursues fortune in California, leading to a clash with a local preacher.",
+      "genres": [
+        "Drama"
+      ]
+    },
+    {
+      "title": "Lincoln",
+      "tmdb_id": 72976,
+      "poster": "https://image.tmdb.org/t/p/w500/7mUYEkv9W3ek61eetZCfMQYVoi.jpg",
+      "release_year": "2012",
+      "director": "Steven Spielberg",
+      "overview": "A focused look at President Abraham Lincoln's efforts to pass the 13th Amendment during the final months of the American Civil War.",
+      "genres": [
+        "History",
+        "Drama"
+      ]
+    },
+    {
+      "title": "Phantom Thread",
+      "tmdb_id": 400617,
+      "poster": "https://image.tmdb.org/t/p/w500/hgoWjp9Sh0MI97eAMZCnIoVfgvq.jpg",
+      "release_year": "2017",
+      "director": "Paul Thomas Anderson",
+      "overview": "In 1950s London, a renowned dressmaker's life is upended by his intense relationship with a young muse.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ]
+    }
+  ]
+}
+
+logs:
+search_person called with params Daniel Day-Lewis and False
+get_movie_details called with params 7345
+get_movie_details called with params 72976
+get_movie_details called with params 400617
+get_movie_credits called with params 7345
+get_movie_credits called with params 72976
+get_movie_credits called with params 400617

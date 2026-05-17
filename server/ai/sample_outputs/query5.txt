@@ -1,0 +1,11 @@
+prompt:
+Recommend some movies where both Salman and Shah Rukh Khan share screentime
+
+out:
+{'response': "Oh, the titans of Bollywood sharing the screen? That's pure, unadulterated cinematic electricity right there. When the 'Karan' meets the 'Arjun', or when Pathaan and Tiger cross paths, the screen just catches fire. If you want to witness these two absolute legends creating magic, here are some essential watches where they share the spotlight. Sit back, grab some popcorn, and enjoy the show!", 'movies': [Movie(title='Pathaan', tmdb_id=864692, poster='https://image.tmdb.org/t/p/w500/arf00BkwvXo0CFKbaD9OpqdE4Nu.jpg', release_year='2023', overview='A soldier caught by enemies and presumed dead comes back to complete his mission, accompanied by old companions and foes.', genres=['Action', 'Adventure', 'Thriller']), Movie(title='Tiger 3', tmdb_id=720557, poster='https://image.tmdb.org/t/p/w500/7wgED7Yx9VLcNWSO91VgwicHmMD.jpg', release_year='2023', overview='Following the events of Tiger Zinda Hai, War, and Pathaan, Avinash Singh Rathore returns as Tiger, but this time the battle is within.', genres=['Action, Adventure, Thriller']), Movie(title='Karan Arjun', tmdb_id=93519, poster='https://image.tmdb.org/t/p/w500/uYhjsC9gCKhxiG2enkCJgdLOXjB.jpg', release_year='1995', overview='Karan and Arjun reincarnate in the different parts of the country. But the faith of their previous mother brings them together in order to avenge their death.', genres=['Action, Thriller']), Movie(title='Kuch Kuch Hota Hai', tmdb_id=11854, poster='https://image.tmdb.org/t/p/w500/5FmtHHDGPofW5Zjns1EM1D8503c.jpg', release_year='1998', overview="Per her mother's last wish, an 8 year old girl sets out to reunite her father with his college best friend who was in love with him.", genres=['Romance, Drama, Comedy'])]}
+
+
+logs:
+search_person called with params Salman Khan and False
+search_person called with params Shah Rukh Khan and False
+discover movies called with params {'language': 'en-US', 'include_video': 'false', 'page': 1, 'include_adult': 'false', 'sort_by': 'popularity.desc', 'with_cast': '42802,35742'}
