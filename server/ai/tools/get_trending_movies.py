@@ -27,6 +27,8 @@ def get_trending_movies(time_window: str = "week"):
         "Authorization": f"Bearer {getenv('TMDB_ACCESS_TOKEN')}",
     }
 
+    print(f"get_trending_movies called with params {time_window}")
+
     try:
         response = requests.get(url, headers=headers)
 

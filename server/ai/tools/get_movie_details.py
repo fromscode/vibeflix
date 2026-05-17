@@ -27,6 +27,8 @@ def get_movie_details(id: int):
         "Authorization": f"Bearer {getenv('TMDB_ACCESS_TOKEN')}",
     }
 
+    print(f"get_movie_details called with params {id}")
+
     try:
         response = requests.get(url, headers=headers)
 

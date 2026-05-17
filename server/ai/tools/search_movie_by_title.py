@@ -37,6 +37,8 @@ def search_movie_by_title(
         "Authorization": f"Bearer {getenv('TMDB_ACCESS_TOKEN')}",
     }
 
+    print(f"search_movie_by_title called with params {params}")
+
     try:
         response = requests.get(
             url,

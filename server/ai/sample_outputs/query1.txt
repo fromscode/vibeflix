@@ -1,0 +1,11 @@
+prompt: Can you find a movie where Lewis Hamilton is a producer and stars Brad Pitt?
+
+output:
+Yo, you're talking about the upcoming film **F1**! 
+
+It's generating a massive amount of hype in the film community, especially with Joseph Kosinski (who gave us *Top Gun: Maverick*) at the helm. Lewis Hamilton is heavily involved as a producer—bringing that authentic F1 insight—and Brad Pitt is leading the cast as a former driver making a comeback. It’s set for release in 2025, and honestly, the cinematography is likely going to be legendary. Can't wait to see how they capture that high-speed intensity!
+
+Logs:
+search_person called with params Brad Pitt and False
+search_person called with params Lewis Hamilton and False
+discover movies called with params {'language': 'en-US', 'include_video': 'false', 'page': 1, 'include_adult': 'false', 'sort_by': 'popularity.desc', 'with_cast': '287', 'with_crew': '216294'}

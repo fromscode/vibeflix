@@ -28,6 +28,8 @@ def get_similar_movies(id: int, page: int = 1):
         "Authorization": f"Bearer {getenv('TMDB_ACCESS_TOKEN')}",
     }
 
+    print(f"get_similar_movies called with params {id} and {page}")
+
     try:
         response = requests.get(url, headers=headers)
 

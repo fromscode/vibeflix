@@ -45,7 +45,7 @@ def discover_movies(
 
         with_cast (str, default = None): Discover movies with particular cast (Use cast Ids. Separate multiple ids using comma (AND) or pipe (OR))
 
-        with_crew (str, default = None): Discover movies with particular crew membders (Use Ids. Separate multiple ids using comma (AND) or pipe (OR))
+        with_crew (str, default = None): Discover movies with particular crew members (Use Ids. Separate multiple ids using comma (AND) or pipe (OR))
 
         with_genres (str, default = None): Discover movies in particular genres (Use genre Ids. Separate multiple ids using comma (AND) or pipe (OR))
 
@@ -93,6 +93,8 @@ def discover_movies(
     }
 
     clean_params = {k: v for k, v in params.items() if v is not None}
+
+    print(f"discover movies called with params {clean_params}")
 
     headers = {
         "accept": "application/json",

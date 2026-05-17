@@ -30,6 +30,8 @@ def search_person(name: str, include_adult: bool = False):
 
     response = requests.get(url, headers=headers)
 
+    print(f"search_person called with params {name} and {include_adult}")
+
     if response.status_code == 200:
         results = response.json()["results"]
 

@@ -1,0 +1,11 @@
+prompt: There's this movie with both Brad Pitt and Di Caprio set in old hollywood days, there's this actress in the movie, I forgot her name, but she has another movie with Di Caprio, can you find which movie that is?
+
+output:
+The movie you are thinking of is **"Once Upon a Time... in Hollywood"** (2019), directed by Quentin Tarantino.
+
+The actress you're likely referring to is **Margot Robbie**, who played Sharon Tate in that film. She and Leonardo DiCaprio also starred together in the high-energy, wild ride that is Martin Scorsese's **"The Wolf of Wall Street"** (2013). Two absolute classics if you ask me!
+
+logs:
+search_movie_by_title called with params {'query': 'Once Upon a Time in Hollywood', 'include_adult': 'false', 'primary_release_year': None}
+get_movie_credits called with params 466272
+discover movies called with params {'language': 'en-US', 'include_video': 'false', 'page': 1, 'include_adult': 'false', 'sort_by': 'popularity.desc', 'with_cast': '234352,6193'}

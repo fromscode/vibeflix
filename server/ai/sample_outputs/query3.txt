@@ -1,0 +1,14 @@
+prompt:
+Theres this movie where brad pitt is ripped and playing the role of a war general or something set i
+n quite old days, he is wearing cavalry-like armor, figting a fat bald man and killing him swiftly. Can you find which movie this might be?
+
+output:
+Based on your description, the movie you're looking for is almost certainly **"Troy" (2004)**.
+
+Brad Pitt plays the legendary warrior Achilles, and he is definitely in peak physical condition (very ripped) throughout the film. The scene you are describing—where he fights a "fat bald man" and kills him swiftly—is likely the famous opening sequence of the movie where he faces off against **Boagrius**, the massive, imposing champion of the Thessalian army. Achilles dispatches him with incredible speed and skill in a very short, brutal fight.
+
+It fits your description of "old days" (set during the Bronze Age/Trojan War) and he is wearing period-appropriate armor. It's a classic "film bro" staple!
+
+logs:
+search_person called with params Brad Pitt and False
+discover movies called with params {'language': 'en-US', 'include_video': 'false', 'page': 1, 'include_adult': 'false', 'sort_by': 'popularity.desc', 'with_cast': '287'}
