@@ -16,7 +16,7 @@ def search_movie_by_title(
     Search the IMDB database for a particular title
 
     Args:
-        name (string): The title to search
+        title (string): The title to search
         include_adult (bool, default=False): True if trying to search movies in the adult industry
         primary_release_year (int, default=None): Specify a release year
 
@@ -58,7 +58,9 @@ def search_movie_by_title(
                                 "genre_ids": work.get("genre_ids", None),
                                 "title": work.get("title", None),
                                 "overview": work.get("overview", None),
-                                "language": work.get("original_language", None),
+                                "original_language": work.get(
+                                    "original_language", None
+                                ),
                                 "release_date": work.get("release_date", None),
                             }
                             for work in results
