@@ -1,8 +1,9 @@
 from langchain.tools import tool
 
 import requests
-from dotenv import dotenv_values
+from dotenv import load_dotenv
 from json import JSONEncoder
+from os import getenv
 
 @tool
 def search_person(name: str, include_adult: bool = False):
@@ -21,7 +22,7 @@ def search_person(name: str, include_adult: bool = False):
 
     headers = {
         "accept": "application/json",
-        "Authorization": f"Bearer {dotenv_values()['TMDB_ACCESS_TOKEN']}"
+        "Authorization": f"Bearer {getenv('TMDB_ACCESS_TOKEN')}"
     }
 
     response = requests.get(url, headers=headers)
