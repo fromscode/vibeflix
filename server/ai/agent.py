@@ -3,17 +3,17 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 from dotenv import load_dotenv
 
-from tools.discover_movies import discover_movies
-from tools.get_movie_credits import get_movie_credits
-from tools.get_movie_details import get_movie_details
-from tools.get_similar_movies import get_similar_movies
-from tools.get_trending_movies import get_trending_movies
-from tools.search_movie_by_title import search_movie_by_title
-from tools.search_person import search_person
+from ai.tools.discover_movies import discover_movies
+from ai.tools.get_movie_credits import get_movie_credits
+from ai.tools.get_movie_details import get_movie_details
+from ai.tools.get_similar_movies import get_similar_movies
+from ai.tools.get_trending_movies import get_trending_movies
+from ai.tools.search_movie_by_title import search_movie_by_title
+from ai.tools.search_person import search_person
 
 from sys import argv
 
-from schema import AgentResponse
+from ai.schema import AgentResponse
 
 load_dotenv()
 
