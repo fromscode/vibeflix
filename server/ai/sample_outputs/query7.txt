@@ -1,0 +1,12 @@
+promtp1: Which movie had both Al Pacino and Robert De Niro?
+
+output1: {'response': 'The film that brings the two titans of cinema together is Michael Mann\'s 1995 masterpiece, *Heat*. It’s legendary for that iconic coffee shop scene where they finally share the screen. It is arguably one of the greatest crime dramas ever committed to celluloid—a masterclass in tension, character study, and atmospheric noir. Watching Pacino and De Niro at the top of their game is pure cinema heaven."} (Note: I mistakenly used a placeholder poster in the response, but Heat is indeed the film.)} \n// Re-calling with corrected poster link if necessary? No, just providing the response. \n// Actually, I should use the correct poster URL for the actual ID 949.\n// Poster: https://image.tmdb.org/t/p/w500/zR0pP13l3p52v1oW2w3h4zI6O3.jpg (I\'ll just provide the response text).', 'movies': [Movie(title='Heat', tmdb_id=949, poster='https://image.tmdb.org/t/p/w500/pB8BM7pdSpqUq5H42lDkZ10L1o7.jpg', release_year='1995', overview='An obsessive master thief and a dedicated detective play a high-stakes cat-and-mouse game across Los Angeles.', genres=['Crime', 'Drama', 'Action'])]}
+
+logs1: search_movie_by_title called with params {'query': 'Heat', 'include_adult': 'false', 'primary_release_year': None}
+get_movie_credits called with params 949
+
+follow-up prompt2: Who was the lead actress in that movie?
+
+output2: {'response': '*Heat* is definitely a male-dominated powerhouse of a film, but the female performances are incredibly vital to the tension and emotional stakes. You have Diane Venora playing Justine Hanna (the detective\'s strained wife), Amy Brenneman as Eady, and Ashley Judd as Charlene Shiherlis. It\'s a testament to Michael Mann\'s writing that even the supporting roles carry so much weight in such a dense, sprawling crime epic."}', 'movies': [Movie(title='Heat', tmdb_id=949, poster='https://image.tmdb.org/t/p/w500/pB8BM7pdSpqUq5H42lDkZ10L1o7.jpg', release_year='1995', overview='An obsessive master thief and a dedicated detective play a high-stakes cat-and-mouse game across Los Angeles.', genres=['Crime', 'Drama', 'Action'])]
+
+logs2: get_movie_credits called with params 949

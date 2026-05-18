@@ -24,6 +24,7 @@ app.add_middleware(
 
 class ChatRequest(BaseModel):
     query: str = Field(description="The natural language prompt from the user")
+    thread_id: str = Field(description="Unique identifier for user's chat sessions")
 
 
 @app.get("/")
@@ -42,7 +43,7 @@ async def chat_with_agent(payload: ChatRequest):
         raise HTTPException(status_code=400, detail="Query cannot be empty")
 
     try:
-        agent_output = run_agent(payload.query)
+        agent_output = run_agent(payload.query, payload.thread_id)
         return agent_output
 
     except Exception as e:
